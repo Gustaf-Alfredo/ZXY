@@ -15,10 +15,14 @@
 @import "./Home/introduction.css";
 @import "./Home/Home.css";
 
+/* Price and Plans */
+
+@import "./Price-Plans/Price-Plans.css";
+
 
 /* ASIDE */ 
 
-@import "./Aside/Aside.css";
+@import "./Global/Aside.css";
 
 /* FOOTER */
 @import "./Global/Footer.css";
