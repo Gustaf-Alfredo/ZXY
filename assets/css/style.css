@@ -1,0 +1,21 @@
+@import "./Global/Global.css";
+@import "./utilities/typography.css";
+@import "./utilities/color.css";
+@import "./utilities/animation.css";
+
+@import "./Global/Header.css";
+
+/* Utilidades */
+
+@import "./utilities/components.css";
+@import "./utilities/form.css";
+
+/*  HOME */
+
+@import "./Home/introduction.css";
+@import "./Home/Home.css";
+
+
+/* ASIDE */ 
+
+@import "./Aside/Aside.css";

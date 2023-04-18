@@ -1,0 +1,45 @@
+/* HOME */
+/* 
+.Home {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home img {
+  display: block;
+}
+
+.Home-text {
+  width: 100%;
+  height: 100%;
+  
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Home-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.Home-text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Home-text h1,
+.Home-text p {
+  
+
+}
+
+.Home-text .button {
+  margin-bottom: 30px;
+} */

@@ -1,0 +1,22 @@
+.info-aside {
+  background-color: blueviolet;
+}
+
+.info-aside ul {
+  display: flex;
+  gap: 30px;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.info-aside ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+
+

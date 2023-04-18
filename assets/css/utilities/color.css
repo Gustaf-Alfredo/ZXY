@@ -1,0 +1,25 @@
+:root {
+  --color-0: #D0CBCB;
+  --color-1: #C8C1C1;
+  --color-2: #C7A6F1;
+  --color-3: #9E54FF;
+  --color-4: #71328D;
+
+  --primary-source:'Sora', sans-serif;
+}
+
+.color-0 {
+  color: var(--color-0);
+}
+.color-1 {
+  color: var(--color-1);
+}
+.color-2 {
+  color: var(--color-2);
+}
+.color-3 {
+  color: var(--color-3);
+}
+.color-4 {
+  color: var(--color-4);
+}
