@@ -19,3 +19,6 @@
 /* ASIDE */ 
 
 @import "./Aside/Aside.css";
+
+/* FOOTER */
+@import "./Global/Footer.css";
