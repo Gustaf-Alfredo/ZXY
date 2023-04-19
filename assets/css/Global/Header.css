@@ -1,5 +1,7 @@
 /* HEADER */
 
+
+
 .header {
   display: grid;
   grid-template-columns: minmax(100px, 1fr) auto;
@@ -8,6 +10,7 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: white;
 }
 
 .header-menu {
@@ -114,11 +117,12 @@
     height: calc(100vh - 70px);
     visibility: visible;
     overflow-y: auto;
+    background-color: rgba(42, 38, 38, 0.956);
   }
   #menu a {
     padding: 1rem 0;
     margin: 0 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid rgba(23, 20, 20, 0.05);
   }
   #btn-mobile {
     display: flex;
@@ -128,9 +132,10 @@
     background: none;
     cursor: pointer;
     gap: 0.5rem;
+    color: white;
   }
   #hamburger {
-    border-top: 2px solid;
+    border-top: 2px solid white;
     width: 20px;
   }
   #hamburger::after,
