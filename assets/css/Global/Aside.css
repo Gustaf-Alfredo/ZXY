@@ -1,5 +1,8 @@
 .info-aside {
   background-color: blueviolet;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .info-aside ul {
@@ -14,6 +17,13 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+}
+
+.container-aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 

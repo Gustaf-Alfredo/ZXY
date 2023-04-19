@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="../assets/css/style.min.css" as="style">
+  <link rel="stylesheet" href="../assets/css/style.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
@@ -12,17 +17,26 @@
     <nav>
       <ul>
         <li>
-          <img src="../assets/img/icones/email.svg" alt="Email"><p>contato@ZXYsuporte.com</p>
-          <img src="../assets/img/icones/local.svg" alt="Localização"><p>Av.Vila Sésamo - 00</p>
+          <div class="container-aside">
+            <img src="../assets/img/icones/email.svg" alt="Email">
+            <p>contato@ZXYsuporte.com</p>
+          </div>
+          <div class="container-aside">
+            <img src="../assets/img/icones/local.svg" alt="Localização">
+            <p>Av.Vila Sésamo - 00</p>
+          </div>
         </li>
-        <li><img src="../assets/img/icones/sun.svg" alt="Dark mode"><p>Modo noturno</p> </li>
+        <li>
+          <img src="../assets/img/icones/sun.svg" alt="Dark mode">
+          <p>Modo noturno</p> 
+        </li>
       </ul>
     </nav>
   </aside>
 
   <header class="header-bg">
     <div class="header container">
-      <a href="#" class="logo">
+      <a href="./index.html" class="logo">
         <img src="../assets/img/ZXY.svg"width="136" height="32"  alt="Logo">
       </a>
 
@@ -33,10 +47,10 @@
         </button>
         
         <ul id="menu" class="header-menu font-1-s-b cor-0" role="menu">
-          <li><a href="#">Planos e Preços</a></li>
+          <li><a href="./Price-Plans.html">Planos e Preços</a></li>
           <li><a href="#">Porque ZXY</a></li>
           <li><a href="#">Sobre Nós</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="./Contato.html">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -47,7 +61,7 @@
   <main class="introduction-bg">
     <div class="introduction container" id="home-introduction">
       <div class="introduction-conteudo">
-        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Bem-vindo ao <br> mundo da TI que <br>gera valor para<br>sua empresa<span class="cor-p1">.</span></h1>
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Bem-vindo ao <br> mundo da TI que <br>gera valor para<br>sua empresa<span class="cor-1">.</span></h1>
         <p class="font-2-l cor-5 fadeInDown" data-anime="400">TI não pode ser uma caixa preta <br>onde você vê o dinheiro desaparecer. <br>Nós assumimos a responsabilidade de<br> traduzir o universo da tecnologia para <br>os nossos clientes.</p>
         <a class="button fadeInDown" data-anime="600" href="#">Conheça melhor a ZXY</a>
       </div>
@@ -57,6 +71,61 @@
       </picture>
     </div>
   </main>
+
+  <article class="tecnologia-bg">
+    <div class="tecnologia container">
+      <div class="tecnologia-conteudo">
+        <span class="font-2-l-b cor-5">Atendimento 24h</span>
+        <h2 class="font-1-xxl cor-0">Nunca te deixamos na mão<span class="color-4">.</span></h2>
+        <p class="font-2-l cor-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ex nisi natus quis quia libero laudantium earum mollitia laborum ratione, quidem nemo minima totam doloremque corporis sapiente facere eligendi eum!.</p>
+        <a class="link" id="link" href="./Price-Plans.html">Escolha um plano</a>
+        <div class="tecnologia-vantagens">
+          <div>
+            <img src="../assets/img/icones/seguracaBD.svg" width="24" height="24" alt="">
+            <h3 class="font-1-m cor-0">Segurança</h3>
+            <p class="font-2-s cor-5">Garantimos a recuperação completa de banco de dados em caso de falhas. Sabemos que falhas são raras, mas estamos aqui para caso ocorra.</p>
+          </div>
+          <div>
+            <img src="../assets/img/icones/velocidade.svg" width="24" height="24" alt="">
+            <h3 class="font-1-m cor-0">Rapidez</h3>
+            <p class="font-2-s cor-5">O seu aplicativo ficará pronto para uso na mesma semana, caso você traga o design para ser estudado em uma das filiais.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tecnologia-imagem">
+        <img src="../assets/img/cookie-the-pom-gySMaocSdqs-unsplash.jpg" width="1200" height="1920" alt="">
+      </div>
+    </div>
+  </article>
+  
+
+  <section class="parceiros" aria-label="Nossos Parceiros">
+    <h2 class="container font-1-xxl">nossos parceiros<span class="color-3">.</span></h2>
+
+    <ul>
+      <li><img src="../assets/img/parceiros/amazon.svg" alt="Caravan" width="140" height="38"></li>
+      <li><img src="../assets/img/parceiros/apple.svg" alt="Ranek" width="149" height="36"></li>
+      <li><img src="../assets/img/parceiros/github.svg" alt="Handel" width="140" height="50"></li>
+      <li><img src="../assets/img/parceiros/windows.svg" alt="Dogs" width="152" height="39"></li>
+      <li><img src="../assets/img/parceiros/xbox.svg" alt="LeScone" width="208" height="41"></li>
+      <li><img src="../assets/img/parceiros/amazon.svg" alt="FlexBlog" width="165" height="38"></li>
+      <li><img src="../assets/img/parceiros/apple.svg" alt="Wildbeast" width="196" height="34"></li>
+      <li><img src="../assets/img/parceiros/github.svg" alt="Surfbot" width="200" height="49"></li>
+    </ul>
+  </section>
+
+
+  <section class="depoimento" aria-label="Depoimento">
+    <div>
+      <img src="../assets/img/prince-akachi-4Yv84VgQkRM-unsplash.jpg" width="1560" height="1360" alt="Pessoa pedalando uma bicicleta Bikcraft">
+    </div>
+    <div class="depoimento-conteudo">
+      <blockquote class="font-1-xl cor-p5">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, perspiciatis dicta! Placeat distinctio totam repellendus amet accusamus quod facilis? Assumenda eius placeat magnam! Voluptatibus, doloribus praesentium esse amet fuga blanditiis!.</p>
+      </blockquote>
+      <span class="font-1-m-b cor-p4">Paulo Roberto</span>
+    </div>
+  </section>
 
 
   <footer class="footer-bg">
@@ -72,13 +141,13 @@
         </ul>
         <div class="footer-redes">
           <a href="./">
-            <img src="../assets/img/icones/instagram.svg" width="32" height="32" alt="Instagram">
+            <img src="../assets/img/redes/instagram.svg" width="32" height="32" alt="Instagram">
           </a>
           <a href="./">
-            <img src="../assets/img/icones/facebook.svg" width="32" height="32" alt="Facebook">
+            <img src="../assets/img/redes/facebook.svg" width="32" height="32" alt="Facebook">
           </a>
           <a href="./">
-            <img src="../assets/img/icones/linkedin.svg" width="32" height="32" alt="Linkedin">
+            <img src="../assets/img/redes/linkedin.svg" width="32" height="32" alt="Linkedin">
           </a>
         </div>
       </div>
@@ -86,9 +155,9 @@
         <h3 class="font-2-l-b cor-0">Informações</h3>
         <nav>
           <ul class="font-1-m cor-5">
-            <li><a href="#">Planos e preços</a></li>
+            <li><a href="./Price-Plans.html">Planos e preços</a></li>
             <li><a href="#">Porque ZXY</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="./Contato.html">Contato</a></li>
             <li><a href="#">Termos e Condições</a></li>
           </ul>
         </nav>
